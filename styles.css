@@ -1,0 +1,24 @@
+/* Centraliza o canvas na página e aplica uma borda ao redor */
+canvas {
+    border: 2px solid black;
+    background-color: #f0f0f0;
+    display: block;
+    margin: 50px auto;
+  }
+  
+  /* Estiliza o corpo da página para centralizar o conteúdo */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+  }
+  
+  /* Centraliza o canvas na vertical */
+  html, body {
+    height: 100%;
+  }
+  
